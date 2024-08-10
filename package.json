@@ -1,0 +1,25 @@
+{
+  "name": "wordy",
+  "version": "1.0.0",
+  "description": "Simple knowledgebase app",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Anuf Shaikh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "connect-flash": "^0.1.1",
+    "express": "^4.18.2",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.18.0",
+    "express-validator": "^3.2.1",
+    "mongoose": "^8.2.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "pug": "^3.0.2"
+  }
+}
